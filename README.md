@@ -1,8 +1,7 @@
-# React + Vite
+# Timer Dashboard React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Captura de Tela 2024-01-09 às 10 04 47](https://github.com/KellyReisLee/timer-dashboard-react/assets/104033201/c13bfd0d-3b0e-49f6-8bf5-e626b94cd497)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>Description: </h2>
+<p>This project was developed to improve the use of 'props' between components, and also to exercise the use of useRef, useEffect in React.js. It is still in the process of being perfected.</p>
