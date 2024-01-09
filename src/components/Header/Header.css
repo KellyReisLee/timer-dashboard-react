@@ -1,0 +1,44 @@
+.header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.header_icons{
+  display: flex;
+  gap: 1rem; 
+}
+
+.header h1{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 4rem;
+  color: rgb(67, 65, 65);
+}
+
+
+.header_icons input{
+  width: 350px;
+  padding: 0.6rem;
+  border: 1px solid grey;
+  border-radius: 7px;
+}
+
+.header_icons-plus{
+  background-color: rgba(187, 190, 192, 0.587);
+  border: 1px solid rgb(158, 156, 156);
+  padding: 0.2rem;
+  border-radius: 100px;
+  box-shadow:   4px 4px 0.5em -3px rgba(108, 108, 106, 0.33);
+  cursor: pointer;
+  
+}
+
+.header_icons-plus:hover{
+  background-color: rgba(220, 216, 173, 0.745)};
+  
+
+  /* @media screen and (min-width: 980px) {
+    .search-icon {
+       display: none;
+    }
+   }   */

@@ -1,0 +1,89 @@
+.boxes{
+  display: flex;
+  justify-content:flex-start;
+  align-items:center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  
+}
+
+.box-main{
+  display: flex;
+  flex-direction: column;
+  
+ 
+}
+
+.timer-box{
+  background-color:rgba(240, 241, 230, 0.399);
+  padding: 1.5rem;
+  border: 1px solid rgb(146, 145, 145);
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+  min-height: 300px;
+ 
+  box-shadow:   4px 4px 0.5em 1px rgba(108, 108, 106, 0.33);
+  
+ 
+}
+
+
+.timer-box h1{
+  font-size: 3rem;
+  padding: 0.6rem;
+  margin-top:  0.6rem;
+  color:rgb(228, 75, 75);
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 2px;
+}
+
+
+.timer-box h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.3rem;
+  margin-top:  0.6rem; 
+  letter-spacing: 2px;
+  color:rgb(64, 62, 62) ;
+}
+
+.timer-box h4{
+  margin-top: 0.4rem;
+  color: rgba(108, 104, 104, 0.878);
+  font-family: monospace;
+  font-size: 1.5rem;
+  letter-spacing: 0.7px;
+}
+
+.timer_icons{
+ display: flex;
+ justify-content: end;
+ align-items: center;
+ cursor: pointer;
+
+}
+
+.inputTimer-input{
+  padding: 0.9rem 1rem;
+  margin-top:  0.5rem;
+  border-radius: 7px;
+  border: 2px groove red;
+ 
+}
+
+.inputTimer-icon{
+  position: relative;
+  left: -33px;
+  top: 3px; 
+ 
+}
+
+.input-timer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}

@@ -1,0 +1,62 @@
+
+.boxes-container{
+  width: 50%;
+  padding: 1rem;
+ 
+}
+
+.input-box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(211, 211, 211, 0.383);
+  border: 1px solid rgb(146, 145, 145);
+  border-radius: 10px;
+  padding: 1.6rem;
+  box-shadow:   4px 4px 0.5em -3px rgba(108, 108, 106, 0.763);
+  
+  
+}
+
+.input-box label{
+  font-family: 'Roboto Mono', monospace;
+  text-align: start;
+  margin-bottom: 0.2rem ;
+  margin-top: 0.7rem;
+  font-size: 1.5rem;
+}
+.input-box input{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid  rgb(146, 145, 145);
+}
+
+.btns-create{
+  display: flex;
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+.btn-create, .btn-cancel{
+  font-size: 1.7rem;
+  padding: 0.7rem;
+}
+
+.btn-create{
+  
+  border: 2px solid rgb(64, 72, 228);
+}
+.btn-cancel{
+  border: 2px solid rgb(215, 75, 75);
+}
+
+
+@media screen and (max-width: 1060px) {
+  .boxes-container {
+     width: 100%;
+     display: block;
+  }
+ }
+
+

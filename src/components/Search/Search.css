@@ -1,0 +1,21 @@
+.input-search{
+  width: 350px;
+  padding: 0.6rem;
+  border: 1px solid grey;
+  border-radius: 7px;
+}
+
+
+@media screen and (max-width: 980px) {
+  .small-screen {
+     display: block;
+  }
+
+  
+ }
+
+@media screen and (min-width: 980px) {
+  .big-screen {
+     display: none;
+  }
+ }
