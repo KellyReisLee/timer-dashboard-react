@@ -5,29 +5,29 @@ import TimerBox from './components/TimerBox/TimerBox';
 import CreateUpdate from './components/CreateUpdate/CreateUpdate';
 import './App.css'
 import Search from './components/Search/Search';
+const data = [
+  {
+    id: crypto.randomUUID(),
+    title: 'Mow the Lawn',
+    project: 'House Chores',
+    time: 900000
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Clear Paper Jam',
+    project: 'Office Chores',
+    time: 1200000
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Project Management',
+    project: 'Dummy Data',
+    time: 900000
+  }
+]
 
+const setDataFrom = localStorage.setItem('dataList', JSON.stringify(data));
 
-
-// const data = [
-//   {
-//     id: crypto.randomUUID(),
-//     title: 'Mow the Lawn',
-//     project: 'House Chores',
-//     time: 900000
-//   },
-//   {
-//     id: crypto.randomUUID(),
-//     title: 'Clear Paper Jam',
-//     project: 'Office Chores',
-//     time: 1200000
-//   },
-//   {
-//     id: crypto.randomUUID(),
-//     title: 'Project Management',
-//     project: 'Dummy Data',
-//     time: 900000
-//   }
-// ]
 let isEdit = false;
 let idItem = 0;
 
@@ -43,7 +43,7 @@ function App() {
   const [openCreate, setOpenCreate] = useState(false);
   const [title, setTitle] = useState('Title');
   const [project, setProject] = useState('Project');
-  const [time, setTime] = useState('9000000');
+  const [time, setTime] = useState('time in minutes');
   const [search, setSearch] = useState('');
   const [openInput, setOpenInput] = useState(false);
   const [startAndStop, setStartAndStop] = useState(false);
@@ -56,6 +56,7 @@ function App() {
 
 
   useEffect(() => {
+
     setInicialData(() => arrayFromStorage)
     const handleResize = () => {
       setWidth(window.innerWidth);

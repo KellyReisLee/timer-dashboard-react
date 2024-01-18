@@ -16,7 +16,7 @@ const TimerBox = ({ onEditBox, onDelete, inicialData, startAndStop, onStart, onS
   }
 
   return (
-    <section key={crypto.randomUUID()} className='boxes' >
+    <section className='boxes' >
       {inicialData.map((item, index) => {
         return (
           <div key={item.id} className='box-main'>
