@@ -78,7 +78,7 @@ function App() {
   }
 
   function handleCreateBox() {
-    const newItem = { id: crypto.randomUUID(), title, project, time }
+    const newItem = { id: crypto.randomUUID(), title, project, time: time * 60 * 1000 }
     setInicialData((prevData) => {
       return [
         newItem, ...prevData
