@@ -1,6 +1,6 @@
 .input-search{
   width: 350px;
-  padding: 0.6rem;
+  padding: 1rem;
   border: 1px solid grey;
   border-radius: 7px;
 }
@@ -9,6 +9,11 @@
 @media screen and (max-width: 980px) {
   .small-screen {
      display: block;
+
+  }
+  .input-search{
+    padding: 1.5rem 1rem;
+    font-size: 1.2rem;
   }
 
   
